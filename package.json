@@ -1,6 +1,6 @@
 {
   "name": "css-fluid-utilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy generates number of spacing and typography CSS utility classes",
   "main": "index.js",
   "scripts": {
