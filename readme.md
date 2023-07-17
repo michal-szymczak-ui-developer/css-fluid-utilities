@@ -3,7 +3,6 @@
 Add to you project a list of CSS classes for fluid font sizes and spacers (paddings, margins, gaps) similiar to utopia.fyi.
 
 ## Usage
------------------------------------
 `$ npm install --save-dev css-fluid-utilities`
 
 Import files and add your customizastion (optionally) in right order:
@@ -16,7 +15,6 @@ Import files and add your customizastion (optionally) in right order:
 @import "./node_modules/css-fluid-utilities/scss/utilities";
 ```
 ## Customization
------------------------------------
 1. **Change breakpoints** (must be SCSS variables)
 ``` 
 $fluid-min-resolution: 420px;
