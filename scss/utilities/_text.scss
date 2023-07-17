@@ -1,0 +1,9 @@
+// -----------------------------------------------------------------------------
+// Generate font size utility classes
+// -----------------------------------------------------------------------------
+
+@each $name, $value in $fluid-font-sizes {
+  .#{$fluid-class-prefix}fs-#{$name} {
+    font-size: $value !important;
+  }
+}

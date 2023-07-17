@@ -1,0 +1,20 @@
+{
+  "name": "css-fluid-utilities",
+  "version": "1.0.0",
+  "description": "Easy generates number of spacing and typography CSS utility classes",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --embed-source-map ./scss/fluid.scss test/fluid.css",
+    "test": "sass --embed-source-map ./test/test.scss test/test.css",
+    "lint": "stylelint scss/**/*.scss"
+  },
+  "author": "Michał Szymczak",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.6",
+    "stylelint": "^15.10.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard-scss": "^10.0.0",
+    "stylelint-order": "^6.0.3"
+  }
+}

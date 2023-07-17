@@ -1,0 +1,9 @@
+@use "sass:math";
+
+// -----------------------------------------------------------------------------
+// Convert px to rem
+// -----------------------------------------------------------------------------
+
+@function g-px-to-rem($fontSize, $globalFontSize: 16px) {
+  @return math.div($fontSize, $globalFontSize) * 1rem;
+}

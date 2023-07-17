@@ -1,0 +1,175 @@
+/* stylelint-disable no-invalid-position-at-import-rule, no-duplicate-selectors */
+:root {
+  --fluid-spacer-small: clamp(6rem, 110vw + -57.25rem, 14.25rem);
+  --fluid-spacer-large: clamp(9.38rem, 83.33vw + -38.54rem, 15.63rem);
+}
+
+:root {
+  --fluid-fs-a: clamp(0.63rem, 1.67vw + -0.33rem, 0.75rem);
+  --fluid-fs-b: clamp(3.25rem, 43.33vw + -21.67rem, 6.5rem);
+}
+
+:root {
+  --fluid-spacer-50: 0.25rem;
+  --fluid-spacer-100: clamp(0.25rem, 3.33vw + -1.67rem, 0.5rem);
+  --fluid-spacer-200: clamp(0.38rem, 5vw + -2.5rem, 0.75rem);
+  --fluid-spacer-300: clamp(0.5rem, 6.67vw + -3.33rem, 1rem);
+  --fluid-spacer-400: clamp(0.75rem, 10vw + -5rem, 1.5rem);
+  --fluid-spacer-500: clamp(1rem, 13.33vw + -6.67rem, 2rem);
+  --fluid-spacer-600: clamp(1.5rem, 20vw + -10rem, 3rem);
+  --fluid-spacer-700: clamp(2rem, 26.67vw + -13.33rem, 4rem);
+  --fluid-spacer-800: clamp(3rem, 40vw + -20rem, 6rem);
+  --fluid-spacer-900: clamp(6rem, 26.67vw + -9.33rem, 8rem);
+  --fluid-spacer-1000: clamp(8rem, 106.67vw + -53.33rem, 16rem);
+}
+
+:root {
+  --fluid-fs-100: 0.625rem;
+  --fluid-fs-200: clamp(0.63rem, 1.67vw + -0.33rem, 0.75rem);
+  --fluid-fs-300: clamp(0.75rem, 1.67vw + -0.21rem, 0.88rem);
+  --fluid-fs-400: clamp(0.88rem, 1.67vw + -0.08rem, 1rem);
+  --fluid-fs-500: clamp(1rem, 1.67vw + 0.04rem, 1.13rem);
+  --fluid-fs-600: clamp(1rem, 5vw + -1.88rem, 1.38rem);
+  --fluid-fs-700: clamp(1.13rem, 5vw + -1.75rem, 1.5rem);
+  --fluid-fs-800: clamp(1.25rem, 6.67vw + -2.58rem, 1.75rem);
+  --fluid-fs-900: clamp(1.5rem, 11.67vw + -5.21rem, 2.38rem);
+  --fluid-fs-1000: clamp(2rem, 21.67vw + -10.46rem, 3.63rem);
+}
+
+.my-p-large {
+  padding: var(--fluid-spacer-large) !important;
+}
+
+.my-py-large {
+  padding-top: var(--fluid-spacer-large) !important;
+  padding-bottom: var(--fluid-spacer-large) !important;
+}
+
+.my-px-large {
+  padding-right: var(--fluid-spacer-large) !important;
+  padding-left: var(--fluid-spacer-large) !important;
+}
+
+.my-pt-large {
+  padding-top: var(--fluid-spacer-large) !important;
+}
+
+.my-pb-large {
+  padding-bottom: var(--fluid-spacer-large) !important;
+}
+
+.my-ps-large {
+  padding-left: var(--fluid-spacer-large) !important;
+}
+
+.my-pe-large {
+  padding-right: var(--fluid-spacer-large) !important;
+}
+
+.m-large {
+  margin: var(--fluid-spacer-large) !important;
+}
+
+.my-large {
+  margin-top: var(--fluid-spacer-large) !important;
+  margin-bottom: var(--fluid-spacer-large) !important;
+}
+
+.mx-large {
+  margin-right: var(--fluid-spacer-large) !important;
+  margin-left: var(--fluid-spacer-large) !important;
+}
+
+.mt-large {
+  margin-top: var(--fluid-spacer-large) !important;
+}
+
+.mb-large {
+  margin-bottom: var(--fluid-spacer-large) !important;
+}
+
+.ms-large {
+  margin-left: var(--fluid-spacer-large) !important;
+}
+
+.me-large {
+  margin-right: var(--fluid-spacer-large) !important;
+}
+
+.gap-large {
+  gap: var(--fluid-spacer-large) !important;
+}
+
+.my-p-small {
+  padding: var(--fluid-spacer-small) !important;
+}
+
+.my-py-small {
+  padding-top: var(--fluid-spacer-small) !important;
+  padding-bottom: var(--fluid-spacer-small) !important;
+}
+
+.my-px-small {
+  padding-right: var(--fluid-spacer-small) !important;
+  padding-left: var(--fluid-spacer-small) !important;
+}
+
+.my-pt-small {
+  padding-top: var(--fluid-spacer-small) !important;
+}
+
+.my-pb-small {
+  padding-bottom: var(--fluid-spacer-small) !important;
+}
+
+.my-ps-small {
+  padding-left: var(--fluid-spacer-small) !important;
+}
+
+.my-pe-small {
+  padding-right: var(--fluid-spacer-small) !important;
+}
+
+.m-small {
+  margin: var(--fluid-spacer-small) !important;
+}
+
+.my-small {
+  margin-top: var(--fluid-spacer-small) !important;
+  margin-bottom: var(--fluid-spacer-small) !important;
+}
+
+.mx-small {
+  margin-right: var(--fluid-spacer-small) !important;
+  margin-left: var(--fluid-spacer-small) !important;
+}
+
+.mt-small {
+  margin-top: var(--fluid-spacer-small) !important;
+}
+
+.mb-small {
+  margin-bottom: var(--fluid-spacer-small) !important;
+}
+
+.ms-small {
+  margin-left: var(--fluid-spacer-small) !important;
+}
+
+.me-small {
+  margin-right: var(--fluid-spacer-small) !important;
+}
+
+.gap-small {
+  gap: var(--fluid-spacer-small) !important;
+}
+
+.my-fs-a {
+  font-size: var(--fluid-fs-a) !important;
+}
+
+.my-fs-b {
+  font-size: var(--fluid-fs-b) !important;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22test.scss%22,%22../scss/settings/_spacers.scss%22,%22../scss/settings/_font-sizes.scss%22,%22../scss/utilities/_spacers.scss%22,%22../scss/utilities/_text.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;AAcA;EACE;EACA;;;AAYF;EACE;EACA;;;AC9BF;EAKE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;ACfF;EAKE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;ACJA;EACE;;;AAGF;EACE;EACA;;;AAGF;EACE;EACA;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAOF;EACE;;;AAGF;EACE;EACA;;;AAGF;EACE;EACA;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAOF;EACE;;;AArEF;EACE;;;AAGF;EACE;EACA;;;AAGF;EACE;EACA;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAOF;EACE;;;AAGF;EACE;EACA;;;AAGF;EACE;EACA;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAOF;EACE;;;AC1EF;EACE;;;AADF;EACE%22,%22file%22:%22test.css%22%7D */

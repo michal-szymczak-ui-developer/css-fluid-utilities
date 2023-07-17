@@ -1,0 +1,82 @@
+// -----------------------------------------------------------------------------
+// Generate List of additional spacing utility classes based on $g-spacers list.
+// eg. .fluid-p-100, .mt-200, .me-100 etc.
+// -----------------------------------------------------------------------------
+
+@each $name, $value in $fluid-spacers {
+  // -----------------------------------------------------------------------------
+  // Paddings
+  // -----------------------------------------------------------------------------
+
+  .#{$fluid-class-prefix}p-#{$name} {
+    padding: $value !important;
+  }
+
+  .#{$fluid-class-prefix}py-#{$name} {
+    padding-top: $value !important;
+    padding-bottom: $value !important;
+  }
+
+  .#{$fluid-class-prefix}px-#{$name} {
+    padding-right: $value !important;
+    padding-left: $value !important;
+  }
+
+  .#{$fluid-class-prefix}pt-#{$name} {
+    padding-top: $value !important;
+  }
+
+  .#{$fluid-class-prefix}pb-#{$name} {
+    padding-bottom: $value !important;
+  }
+
+  .#{$fluid-class-prefix}ps-#{$name} {
+    padding-left: $value !important;
+  }
+
+  .#{$fluid-class-prefix}pe-#{$name} {
+    padding-right: $value !important;
+  }
+
+  // -----------------------------------------------------------------------------
+  // Margins
+  // -----------------------------------------------------------------------------
+
+  .m-#{$name} {
+    margin: $value !important;
+  }
+
+  .my-#{$name} {
+    margin-top: $value !important;
+    margin-bottom: $value !important;
+  }
+
+  .mx-#{$name} {
+    margin-right: $value !important;
+    margin-left: $value !important;
+  }
+
+  .mt-#{$name} {
+    margin-top: $value !important;
+  }
+
+  .mb-#{$name} {
+    margin-bottom: $value !important;
+  }
+
+  .ms-#{$name} {
+    margin-left: $value !important;
+  }
+
+  .me-#{$name} {
+    margin-right: $value !important;
+  }
+
+  // -----------------------------------------------------------------------------
+  // Gaps
+  // -----------------------------------------------------------------------------
+
+  .gap-#{$name} {
+    gap: $value !important;
+  }
+}

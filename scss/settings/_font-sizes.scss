@@ -1,0 +1,29 @@
+:root {
+  // -----------------------------------------------------------------------------
+  // Fluid typography font sizes
+  // -----------------------------------------------------------------------------
+
+  --fluid-fs-100: #{g-fluid(8px, 10px)};
+  --fluid-fs-200: #{g-fluid(10px, 12px)};
+  --fluid-fs-300: #{g-fluid(12px, 14px)};
+  --fluid-fs-400: #{g-fluid(14px, 16px)};
+  --fluid-fs-500: #{g-fluid(16px, 18px)};
+  --fluid-fs-600: #{g-fluid(16px, 22px)};
+  --fluid-fs-700: #{g-fluid(18px, 24px)};
+  --fluid-fs-800: #{g-fluid(20px, 28px)};
+  --fluid-fs-900: #{g-fluid(24px, 38px)};
+  --fluid-fs-1000: #{g-fluid(32px, 58px)};
+}
+
+$fluid-font-sizes: (
+  100: var(--fluid-fs-100),
+  200: var(--fluid-fs-200),
+  300: var(--fluid-fs-300),
+  400: var(--fluid-fs-400),
+  500: var(--fluid-fs-500),
+  600: var(--fluid-fs-600),
+  700: var(--fluid-fs-700),
+  800: var(--fluid-fs-800),
+  900: var(--fluid-fs-900),
+  1000: var(--fluid-fs-1000),
+) !default;

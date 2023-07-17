@@ -1,0 +1,13 @@
+@use "sass:math";
+
+@function g-round($number, $decimals: 0) {
+  $n: 1;
+
+  @if $decimals > 0 {
+    @for $i from 1 through $decimals {
+      $n: $n * 10;
+    }
+  }
+
+  @return math.div(math.round($number * $n), $n);
+}

@@ -1,0 +1,11 @@
+@use "sass:math";
+
+@function g-fluid($min-size, $max-size, $min-breakpoint: $fluid-min-resolution, $max-breakpoint: $fluid-max-resolution, $unit: vw) {
+  $slope: math.div($max-size - $min-size, $max-breakpoint - $min-breakpoint);
+  $slope-to-unit: g-round($slope * 100, 2);
+  $intercept-rem: g-round(g-px-to-rem($min-size - $slope * $min-breakpoint), 2);
+  $min-size-rem: g-round(g-px-to-rem($min-size), 2);
+  $max-size-rem: g-round(g-px-to-rem($max-size), 2);
+
+  @return clamp(#{$min-size-rem}, #{$slope-to-unit}#{$unit} + #{$intercept-rem}, #{$max-size-rem});
+}
