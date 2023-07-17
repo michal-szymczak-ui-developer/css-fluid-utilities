@@ -1,0 +1,15 @@
+{
+	"stylelint.validate": ["scss"],
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"liveServer.settings.port": 5502,
+	"cSpell.words": [
+		"stylelint"
+	]
+}
